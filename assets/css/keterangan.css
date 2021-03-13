@@ -1,0 +1,11 @@
+span.box-masuk {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.tx {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: -10px;
+}

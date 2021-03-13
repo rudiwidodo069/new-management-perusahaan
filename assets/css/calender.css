@@ -1,0 +1,87 @@
+#calender {
+	width: 90%;
+	margin: auto;
+	box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.schedule {
+	margin-left: -30px;
+}
+
+.tahun {
+	display: flex;
+	background: rgba(97, 211, 97, 0.867);
+	color: #fff;
+	display: flex;
+	height: 150px;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.tahun .prev,
+.tahun .next {
+	margin-top: 30px;
+	display: flex;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	background: rgba(33, 85, 33, 0.466);
+	border-radius: 40%;
+	width: 50px;
+	height: 40px;
+	text-align: center;
+}
+
+.prev:hover,
+.next:hover {
+	background: #fff;
+	cursor: pointer;
+	color: #adad;
+}
+
+.tahun h3 {
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.tahun p {
+	font-size: 18px;
+}
+
+.hari {
+	display: flex;
+	height: 35px;
+	margin-top: -30px;
+	color: #fff;
+	font-size: 18px;
+	background: rgb(126, 172, 136);
+	padding: 5px;
+}
+
+.hari div {
+	width: 14.30%;
+}
+
+.tanggal {
+	margin-right: -1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tanggal div {
+	width: 14.28%;
+	padding: 24px 0;
+	font-weight: bold;
+}
+
+.tanggal div:hover {
+	background: rgb(179, 175, 175);
+	cursor: pointer;
+	color: #fff;
+}
+
+.prev_date {
+	color: rgb(173, 170, 170);
+}
